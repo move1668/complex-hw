@@ -29,7 +29,7 @@ function toReplace(str, a, b) {
 		newStr = newStr + str.substring(i + 1, arrHyphen[i]) + ' ';
 	}
 
-	// return newStr;
+	return newStr;
 }
 
 
